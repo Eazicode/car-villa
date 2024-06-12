@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CarVilla</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/logo/favicon.png">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="d-flex justify-content-between bg-dark position-fixed align-items-baseline w-100 padding">
+
+        <div class="d-flex align-items-center burger-logo">
+
+            <div class=" p-2 d-lg-none text-primary burger-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512">!Font Awesome Free 6.5.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.<path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg>
+                <!-- <i class="bi bi-list text-white"></i> -->
+            </div>
+
+            <div class="logo"><a class="text-decoration-none text-white fw-bold fs-3" href="">CARVILLA</a></div> 
+           
+        </div>
+
+        <div class="d-none d-lg-flex">
+            <ul class="d-none d-lg-flex">
+                <a class=" text-white text-decoration-none pe-5 fs-6" href="#home"> <li class="list-unstyled  nav-btn">HOME</li> </a>
+                <a class=" text-white text-decoration-none pe-5 fs-6" href="#services"> <li class="list-unstyled  nav-btn">SERVICE</li> </a>
+                <a class=" text-white text-decoration-none pe-5 fs-6" href="#featured-cars"> <li class="list-unstyled  nav-btn">FEATURED CARS</li> </a>
+                <a class=" text-white text-decoration-none pe-5 fs-6" href="#newest-car"> <li class="list-unstyled  nav-btn"> NEW CARS</li> </a>
+                <a class=" text-white text-decoration-none pe-5 fs-6" href="#brands"> <li class="list-unstyled  nav-btn"> BRANDS</li> </a>
+                <a class=" text-white text-decoration-none fs-6" href="#contacts"> <li class="list-unstyled  nav-btn">CONTACT</li> </a>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="home" class=" nav-section">
+
+        <div class="overlay">
+
+
+            <div class=" text-center car-price">
+                <p class=" text-white fw-bold pb-5 px-8 title">GET YOUR DESIRED CAR IN REASONABLE PRICE</p>
+                <p class=" text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores repellat quidem libero sequi</p>
+                <p class="text-white mb-5">  non autem quaerat quisquam repellendus iure.</p>
+            </div>
+        
+            <div class="text-center btn-wrapper">
+                <button class=" px-5 py-3 btn contact-btn"> <a class="text-decoration-none text-white" href=""> Contact Us</a> </button>
+            </div>
+
+            <div class="d-lg-flex justify-content-between mx-auto bg-white align-items-center option-wrapper">
+
+                <div>
+                    <p class="mb-3 option-title">Select Year</p>
+    
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select>
+                            <option value="YEAR"> Year </option>
+                            <option value="2016"> 2016 </option>
+                            <option value="2017"> 2017 </option>
+                            <option value="2018">2018 </option>
+                        </select>
+                    </div>
+
+                      <p class="mb-3 option-title">Body Style</p>
+    
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select>
+                            <option value="YEAR">Style </option>
+                            <option value="2016"> Van </option>
+                            <option value="2017"> Roadstar </option>
+                            <option value="2018">Sedan </option>
+                        </select>
+                   </div>
+
+                </div>
+
+                <div>
+                    <p class="mb-3 option-title">Select Make</p>
+    
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select>
+                            <option value="YEAR"> Make </option>
+                            <option value="2016"> Honda </option>
+                            <option value="2017"> toyota </option>
+                            <option value="2018">Mercedes Benz</option>
+                        </select>
+                    </div>
+
+                      <p class="mb-3 option-title">Car Condition</p>
+    
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select>
+                            <option value="YEAR">Condition </option>
+                            <option value="2016">Good </option>
+                            <option value="2017"> Best </option>
+                            <option value="2018">Bad </option>
+                        </select>  
+                    </div>
+
+                </div>
+
+                <div>
+
+                    <p class="mb-3 option-title">Select Model</p>
+     
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select>
+                            <option value="YEAR"> Model </option>
+                            <option value="2016"> Kia </option>
+                            <option value="2017"> Ria </option>
+                            <option value="2018">Ford</option>
+                        </select>
+                    </div>
+
+                      <p class="mb-3 option-title">Select Price</p>
+    
+                    <div class="px-2 mb-4 select-wrapper">
+                        <select class="px-2" >
+                            <option value="YEAR">Price </option>
+                            <option value="2016">$5,000 </option>
+                            <option value="2017"> $20,000 </option>
+                            <option value="2018">$15,000 </option>
+                        </select>  
+                    </div>
+
+                </div>
+
+                <div class="search-btn">
+                    <button class="px-5 py-3 btn "> <a class="text-decoration-none text-white" href=""> Search</a> </button>
+                </div>
+             </div>
+
+         </div>   
+
+    </div>
+
+    <div id="services" class="d-md-flex justify-content-between flex-wrap services-wrapper">
+
+        <div class="py-5 text-center services">
+            <svg class="mb-5" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M280 24c0-13.3-10.7-24-24-24s-24 10.7-24 24v80c0 13.3 10.7 24 24 24s24-10.7 24-24V24zM185.8 224H326.2c6.8 0 12.8 4.3 15.1 10.6L360.3 288H151.7l19.1-53.4c2.3-6.4 8.3-10.6 15.1-10.6zm-75.3-10.9L82.2 292.4C62.1 300.9 48 320.8 48 344v40 64 32c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V448H384v32c0 17.7 14.3 32 32 32h16c17.7 0 32-14.3 32-32V448 384 344c0-23.2-14.1-43.1-34.2-51.6l-28.3-79.3C390.1 181.3 360 160 326.2 160H185.8c-33.8 0-64 21.3-75.3 53.1zM128 344a24 24 0 1 1 0 48 24 24 0 1 1 0-48zm232 24a24 24 0 1 1 48 0 24 24 0 1 1 -48 0zM39 39c-9.4 9.4-9.4 24.6 0 33.9l48 48c9.4 9.4 24.6 9.4 33.9 0s9.4-24.6 0-33.9L73 39c-9.4-9.4-24.6-9.4-33.9 0zm400 0L391 87c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l48-48c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0z"/></svg>
+            
+            <p class="fs-5 mb-3">Largest Dealership Of Car </p>
+
+            <p class="mb-2 fs-8">Lorem ipsum dolor sit amet </p>
+            <p class="mb-2 fs-8"> consecte adi elitwrynmd Ver iur off vol </p>
+            <p class="mb-3 fs-8"> deleniti ut quos!</p>
+            <p class="mx-auto line"> </p>
+        </div>
+
+
+        <div class="py-5 text-center  services">
+            <svg class="mb-5" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M165.4 96H346.6c13.6 0 25.7 8.6 30.2 21.4L402.9 192H109.1l26.1-74.6c4.5-12.8 16.6-21.4 30.2-21.4zm-90.6 .3L39.6 196.8C16.4 206.4 0 229.3 0 256v80c0 23.7 12.9 44.4 32 55.4V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V400H384v48c0 17.7 14.3 32 32 32h32c17.7 0 32-14.3 32-32V391.4c19.1-11.1 32-31.7 32-55.4V256c0-26.7-16.4-49.6-39.6-59.2L437.2 96.3C423.7 57.8 387.4 32 346.6 32H165.4c-40.8 0-77.1 25.8-90.6 64.3zM208 272h96c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H208c-8.8 0-16-7.2-16-16V288c0-8.8 7.2-16 16-16zM48 280c0-13.3 10.7-24 24-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H72c-13.3 0-24-10.7-24-24zm360-24h32c13.3 0 24 10.7 24 24s-10.7 24-24 24H408c-13.3 0-24-10.7-24-24s10.7-24 24-24z"/></svg>            
+            <p class="fs-5 mb-3">Unlimited Repair Warranty </p>
+
+            <p class="mb-2 fs-8">Lorem ipsum dolor sit amet </p>
+            <p class="mb-2 fs-8"> consecte adi elitwrynmd Ver iur off vol </p>
+            <p class="mb-3 fs-8"> deleniti ut quos!</p>
+            <p class="mx-auto line"> </p>
+        </div>
+
+        <div class="py-5 text-center  services">
+            <svg class="mb-5" width="60px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M171.3 96H224v96H111.3l30.4-75.9C146.5 104 158.2 96 171.3 96zM272 192V96h81.2c9.7 0 18.9 4.4 25 12l67.2 84H272zm256.2 1L428.2 68c-18.2-22.8-45.8-36-75-36H171.3c-39.3 0-74.6 23.9-89.1 60.3L40.6 196.4C16.8 205.8 0 228.9 0 256V368c0 17.7 14.3 32 32 32H65.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H385.3c7.6 45.4 47.1 80 94.7 80s87.1-34.6 94.7-80H608c17.7 0 32-14.3 32-32V320c0-65.2-48.8-119-111.8-127zM434.7 368a48 48 0 1 1 90.5 32 48 48 0 1 1 -90.5-32zM160 336a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>            
+            <p class="fs-5 mb-3">Insurance Support </p>
+
+            <p class="mb-2 fs-8">Lorem ipsum dolor sit amet </p>
+            <p class="mb-2 fs-8"> consecte adi elitwrynmd Ver iur off vol </p>
+            <p class="mb-3 fs-8"> deleniti ut quos!</p>
+            <p class="mx-auto line"></p>
+        </div>
+
+    </div>
+
+    <div id="newest-car" class="text-center newest-car">
+        <p class="text-dark">Checkout the Lastest Cars</p>
+        <p class=" text-dark  fs-1 mb-4">Newest Cars</p>
+        <p  class="mx-auto line-1"></p>
+    </div>
+
+    <div class="enquiry-container">
+
+        <div class=" overflow-auto enquiry-wrapper">
+
+            <div class="d-flex justify-content-between">
+
+                 <div class="car-section">
+
+                    <div  class="d-sm-flex align-items-center justify-content-between car-wrapper px-6 ">
+                        <div class="img-div">
+                            <img class="w-100" src="ncm1.png" alt="">
+                        </div>
+
+                        <div>
+                            <p class=" text-dark mb-3 fs-3">Chevrolot Camaro ZA100</p>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit amet consectetur adipisicing</P>
+                            <P class="mb-1 fs-9">facere perspiciatis qui fuga ab quos, illum placeat</P>
+                            <P class="mb-1 fs-9">sunt inventore, adipisci iure dolor, voluptatum magni</P>
+                            <P class="mb-5 fs-9">neque. Accusamus error nulla quo quae!</P>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit, amet consectetur adipisicing </P>
+                            <P class="mb-5 fs-9">laborum modi beatae enim?</P>
+
+                            <button class=" px-5 py-3 btn"> <a class="text-decoration-none text-white" href=""> View Details</a> </button>
+                        </div>
+                    </div>
+ 
+                </div>
+
+                <div class=" car-section">
+
+                    <div  class="d-lg-flex align-items-center justify-content-between car-wrapper px-6">
+                        <div class="img-div">
+                            <img class="w-100" src="ncm2.png" alt="">
+                        </div>
+
+                        <div>
+                            <p class=" text-dark mb-3 fs-3">BMW Series-3 Wagon</p>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit amet consectetur adipisicing</P>
+                            <P class="mb-1 fs-9">facere perspiciatis qui fuga ab quos, illum placeat</P>
+                            <P class="mb-1 fs-9">sunt inventore, adipisci iure dolor, voluptatum magni </P>
+                            <P class="mb-5 fs-9">neque. Accusamus error nulla quo quae!</P>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit, amet consectetur adipisicing</P>
+                            <P class="mb-5 fs-9">laborum modi beatae enim?</P>
+
+                            <button class=" px-5 py-3 btn"> <a class="text-decoration-none text-white" href=""> View Details</a> </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class=" car-section">
+
+                    <div  class="d-lg-flex align-items-center justify-content-between car-wrapper px-6">
+                        <div class="img-div">
+                            <img class="w-100" src="ncm3.png"  alt="">
+                        </div>
+
+                        <div>
+                            <p class=" text-dark mb-3 fs-3">Ferrari 488 Superfast</p>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit amet consectetur adipisicing</P>
+                            <P class="mb-1 fs-9">facere perspiciatis qui fuga ab quos, illum placeat</P>
+                            <P class="mb-1 fs-9">sunt inventore, adipisci iure dolor, voluptatum magni</P>
+                            <P class="mb-5 fs-9">neque. Accusamus error nulla quo quae!</P>
+                            <P class="mb-1 fs-9">Lorem ipsum dolor sit, amet consectetur adipisicing</P>
+                            <P class="mb-5 fs-9">laborum modi beatae enim?</P>
+
+                            <button class=" px-5 py-3 btn"> <a class="text-decoration-none text-white" href=""> View Details</a> </button>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="featured-cars" class="text-center text-container-1">
+        <p class="text-dark">Checkout the Featured Cars</p>
+        <p class="text-dark fs-1 mb-4"> Featured Cars</p>
+        <p  class="mx-auto line-1"></p>
+        
+    </div>
+
+    <div  class="px-8 mb-6 d-flex justify-content-between gap-4 flex-wrap featured-cars-section">
+
+        <div class="featured-car-container">
+
+            <div class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p >Automatic</p>
+                </div>
+
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">BMW 6-Series Gran Coupe</a></p>
+                <p class="fw-bold pb-2">$89,395</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">  adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+
+
+        <div class="featured-car-container">
+
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+    
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+            
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">BMW 6-Series Gran Coupe</a></p>
+                <p class="fw-bold pb-2">$89,395</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+
+        <div class="featured-car-container">
+
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">BMW 6-Series Gran Coupe</a></p>
+                <p class="fw-bold pb-2">$89,395</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+         </div>
+
+        <div class="featured-car-container">
+            
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+
+            </div>
+
+            
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">BMW 6-Series Gran Coupe</a></p>
+                <p class="fw-bold pb-2">$89,395</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="px-8 mb-6 d-flex justify-content-between  gap-4 flex-wrap featured-cars-section">
+
+        <div class="featured-car-container">
+
+            <div class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p >Automatic</p>
+                </div>
+
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">Lamborghini V520</a></p>
+                <p class="fw-bold pb-2">$125,250</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">  adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+
+
+        <div class="featured-car-container">
+
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+    
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+            
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark"  href="">Lamborghini V520</a></p>
+                <p class="fw-bold pb-2">$125,250</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+
+        <div class="featured-car-container">
+
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+
+            </div>
+
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">Lamborghini V520</a></p>
+                <p class="fw-bold pb-2">$125,250</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+         </div>
+
+        <div class="featured-car-container">
+            
+            <div  class="mb-4 featured-cars-wrapper">
+                <div class="my-5 mx-4">
+                    <img src="fc1.png" alt="">
+                </div>
+
+                <hr>
+
+                <div class="ps-2">
+                    <span class="pe-3">Model:2017</span> <span class="pe-3">3100MI</span> <span>240HP</span>
+                    <p>Automatic</p>
+                </div>
+
+            </div>
+
+            
+            <div class="mb-5">
+                <p class="fs-5 pb-3"><a class="text-decoration-none text-dark" href="">Lamborghini V520</a></p>
+                <p class="fw-bold pb-2">$125,250</p>
+                <p class="about-car">Neque porro quisquam est, qui dolorem</p>
+                <p class="about-car">ipsum quia dolor sit amet, consectetur,</p>
+                <p class="about-car">adipisci velit, sed quia non.</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="text-center  newest-car">
+        <p class=" text-dark  fs-1 mb-4">What our Clients Say</p>
+        <p  class="mx-auto line-1"></p>
+    </div>
+
+    <div class="enquiry-container">
+
+        <div class="  overflow-auto pb-6 clients-sct">
+
+            <div class="d-flex justify-content-between car-enquiry">
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c1.png" alt="">
+                    
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium </p>
+                    <p class="mb-2">dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">John Doe</p>
+                    <p class="fw-bold">Washington</p>
+
+                </div>
+
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c2.png" alt="">
+
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium</p>
+                    <p class="mb-2"> dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">Thomas Lilie</p>
+                    <p class="fw-bold">New York</p>
+
+                </div>
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c3.png" alt="">
+
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium</p>
+                    <p class="mb-2"> dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">Romi Rain</p>
+                    <p class="fw-bold">London</p>
+
+                </div>
+
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c1.png" alt="">
+                    
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium</p>
+                    <p class="mb-2"> dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">John Doe</p>
+                    <p class="fw-bold">Washington</p>
+
+                </div>
+
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c2.png" alt="">
+
+
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium</p>
+                    <p class="mb-2"> dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">Thomas Lilie</p>
+                    <p class="fw-bold">New York</p>
+
+                </div>
+
+                <div class="py-5 text-center me-4 clients-says ">
+
+                    <img class="mb-5" src="c3.png" alt="">
+
+                    <p class="mb-2">sed ut pers unde omins iste natus </p>
+                    <p class="mb-2">errue sit voluptatem accusantium</p>
+                    <p class="mb-2"> dolar laudan rem aperiam, eaque</p>
+                    <p class="mb-4">ispa quae ab lilo inventore verit </p>
+                    <p class="fw-bold">Romi Rain</p>
+                    <p class="fw-bold">London</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="brands" class="d-flex justify-content-between overflow-auto clients-sct">
+       
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br1.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br2.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br3.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br4.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br5.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br6.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br1.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br2.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br3.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br4.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br5.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br6.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br1.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br2.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br3.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br4.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br5.png" alt=""></a> 
+        <a class="text-decoration-none" href=""><img class="pe-5" src="br6.png" alt=""></a> 
+
+    </div>
+
+    <div id="contacts" class="footer">
+
+        <div class="d-lg-flex justify-content-between">
+
+            <div class="d-md-flex justify-content-between footer-logo pb-6 me-2">
+
+                <div class="mb-2 me-4">
+                    <p class="mb-5"><a class=" text-decoration-none text-white fw-bold fs-3 logo" href="">CARVILLA</a></p> 
+
+                    <p class="text-white mb-1 fs">Ased do eiusm tempor incidi ut </p>
+                    <p class="text-white mb-1 fs">labore et dolore magnaian aliqua. Ut</p>
+                    <p class="text-white mb-4 fs">enim ad minim veniam.</p>
+
+                    <p class="contacts">info@themesine.com</p>
+                    <p class="contacts">+1 (885) 2563154554</p>
+
+                </div>
+
+                <div class="devloon-div">
+                    <p class="text-white mb-5 fs">ABOUT DEVLOON</p> 
+
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">About Us</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Career</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Terms of service</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Privacy Policy</a></p>
+
+                </div>
+            </div>
+
+            <div class=" d-flex justify-content-between">
+
+                <div class="me-5 top-brands">
+                
+                    <p class="text-white mb-5 fs">TOP BRANDS</p> 
+
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">BMW</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Lamborghini</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Camaro</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Audi</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Infinti</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Nissan</a></p>
+
+
+                </div>
+
+                <div class="top-brands">
+                
+                    <p class="text-white mb-5 fs">TOP BRANDS</p> 
+
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Ferrari</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Porsche</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Land Rover</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Aston Martin</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">Mersedes</a></p>
+                    <p class="mb-2"><a class="text-decoration-none contacts" href="">opel</a></p>
+
+
+                </div>
+
+            </div>
+
+            <div class="col-md-3 news">
+                <p class="text-white mb-5 fs">NEWS LETTER</p>
+
+                <P class="contacts mb-1">Subscribe to get latest news update</P>
+                <P class="contacts mb-3">and informations</P>
+
+                <div class="">
+                    <input class="border-0 px-3" type="email" name="" placeholder="Add Email" id="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="pb-2">
+            <p class="mb-2 foot-line"></p> 
+
+            <p class="mb-4"><a class="text-decoration-none copyright" href="">© Copyright.Designed And Developed By Themesine.</a></p>
+        </div>
+
+    </div>
+
+</body>
+</html>
